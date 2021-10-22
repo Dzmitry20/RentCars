@@ -1,15 +1,15 @@
 spring:
   mail:
-    host: smtp.gmail.com
-    port: 587
-    username: zhdv271@gmail.com
-    password: qmshucjeheijjicr
+    host:
+    port:
+    username:
+    password:
     properties:
       mail:
         smtp:
           starttls:
-                  enable: true
-          auth: true
+                  enable:
+          auth:
 
   servlet:
     multipart:
@@ -30,8 +30,8 @@ spring:
       jdbc-url: "jdbc:postgresql://localhost:5432/postgres"
       maximum-pool-size: 10
       driver-class-name: org.postgresql.Driver
-    username: postgres
-    password: postgres
+    username:
+    password:
     url: "jdbc:postgresql://localhost:5432/postgres"
     driver-class-name: org.postgresql.Driver
 
@@ -47,9 +47,9 @@ jwtconfig:
   expiration: 6000000
 
 amazon:
-    serverUrl: "https://jd2aws.s3.eu-central-1.amazonaws.com"
-    awsAccessKeyId: AKIASI44GPTY5A5IU7EZ
-    awsSecretKey: 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
-    folder: user
-    bucket: jd2aws
-    region: eu-central-1
+    serverUrl:
+    awsAccessKeyId:
+    awsSecretKey:
+    folder:
+    bucket:
+    region:

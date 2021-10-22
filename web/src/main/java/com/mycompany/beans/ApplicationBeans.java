@@ -32,6 +32,7 @@ import java.util.concurrent.TimeUnit;
 @Configuration
 public class ApplicationBeans {
 
+
     @Bean
     public StringUtils getStringUtils() {
         return new StringUtils();
